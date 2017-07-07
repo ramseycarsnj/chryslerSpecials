@@ -2,13 +2,14 @@ html, body, div, h1, h2, h3, h4, h5, h6,p, span
   margin: 0
   padding: 0
   border: 0
+  background-color: #E3E3E3
 .specialContainer
-  width: 870px
+  width: 940px
   background-color: #ffffff
   color: #000000
   padding: 20px
   margin: 40px 0
-  border: 1px solid #dddddd
+  border: 1px solid #E3E3E3
   display: -webkit-box
   display: -moz-box
   display: -ms-flexbox
@@ -17,9 +18,16 @@ html, body, div, h1, h2, h3, h4, h5, h6,p, span
   flex-direction: row
   font-family: Arial, sans-serif
 .specialContent
+  position: relative
   width: 50%
   flex: 1 auto
+  background-color: #ffffff
+.leftContent
+  background-color: #ffffff
+.rightContent
+  background-color: #ffffff
 .leaseQuoteSection
+  background-color: #ffffff
   display: -webkit-box
   display: -moz-box
   display: -ms-flexbox
@@ -27,59 +35,57 @@ html, body, div, h1, h2, h3, h4, h5, h6,p, span
   display: flex
   flex-direction: row
 .leaseHead
-  padding: 0 0 0 60px
-  margin: 0 0 -10px 0
+  background-color: #ffffff
+  padding: 35px 0 0 80px
+  margin: 0 0 -5px 0
+  z-index: 8999
 .lease
+  background-color: #ffffff
   flex: 1
-  font-size: 90px
-  padding: 0
+  font-size: 110px
+  padding: 0 0 0 0
   margin: 0
   border: 0
-  text-align: left
+  text-align: right
 .monthsSections
+  background-color: #ffffff
   flex: 1
-  font-size: 31px
-  padding: 16px 0 0 0
-  margin: 0 0 0 -20px
+  font-size: 38px
+  padding: 23px 0 0 0
+  margin: 0px 0 0 5px
   border: 0
+  line-height: 1
 .moneyDue
-  padding: 0 0 20px 70px
-  margin: -10px 0 0 0
+  background-color: #ffffff
+  padding: 0 0 20px 90px
+  margin: 0px 0 0 0
 .linkButton
+  background-color: #ffffff
   color: #ffffff
   background-color: #1E4387
   text-decoration: none
-  padding: 10px 70px
+  padding: 10px 140px
   display: inline-block
   font-size: 25px
 .linkButton:hover
   color: #ffffff
-  background-color: #000
-  text-decoration: none
-  padding: 10px 70px
-  display: inline-block
-  font-size: 25px
+  background-color: #183770
 .disclaimer
-  font-size: 10px
+  background-color: #ffffff
+  font-size: 8px
   padding: 20px 0 0 0
 .vehicleImage
+  background-color: #ffffff
   width: 100%
   margin: 0
   border: 0
   padding: 30px 0 0 0
+.yearMake
+  background-color: #ffffff
 .modelTrim
-  font-size: 35px
+  background-color: #ffffff
+  font-size: 25px
   font-weight: 700
-.buyHead
-  font-weight: 500
-  font-size: 30px
-  line-height: 1
-  margin: 0 0 20px 0
-  padding: 0
-  border: 0
-.buyPrice
-  font-size: 47px
-  font-weight: 900
 
 @media (max-width: 600px)
   .specialContainer
@@ -88,7 +94,7 @@ html, body, div, h1, h2, h3, h4, h5, h6,p, span
   .specialContent
     width: 100%
   .modelTrim
-    font-size: 22px
+    font-size: 20px
   .leaseHead
     padding: 0 0 0 30px
     margin: 0 0 -5px 0
@@ -106,11 +112,10 @@ html, body, div, h1, h2, h3, h4, h5, h6,p, span
     margin: 0 0 0 7px
     border: 0
   .moneyDue
-    padding: 0 0 20px 35px
+    padding: 0 0 20px 15px
     margin: -5px 0 0 0
   .linkButton
     color: #ffffff
-    background-color: #033057
     text-decoration: none
     padding: 10px
     display: block
@@ -118,20 +123,8 @@ html, body, div, h1, h2, h3, h4, h5, h6,p, span
     text-align: center
   .linkButton:hover
     color: #ffffff
-    background-color: #062642
     text-decoration: none
     padding: 10px
     display: block
     font-size: 25px
     text-align: center
-  .buyHead
-    text-align: center
-    font-weight: 500
-    font-size: 20px
-    line-height: 1
-    margin: 0 0 20px 0
-    padding: 0
-    border: 0
-  .buyPrice
-    font-size: 47px
-    font-weight: 900
