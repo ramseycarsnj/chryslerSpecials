@@ -101,7 +101,7 @@ $(document).ready(function(){
   vehicleArray[0] = new Vehicle(
   2017,
   'JEEP',
-  'GRAND TOURING LAREDO 4X4',
+  'GRAND CHEROKEE TOURING LAREDO 4X4',
   'Velvet Red',
   '4DR',
   '3.6L V6 24V VVT',
