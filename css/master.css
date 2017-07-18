@@ -54,6 +54,9 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   margin: 0;
   border: 0;
   text-align: right; }
+  .lease font {
+    font-size: 18px;
+    background-color: none; }
 
 .monthsSections {
   background-color: #ffffff;
