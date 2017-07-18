@@ -116,7 +116,7 @@ $(document).ready(function(){
   'CHH0173',
   '15',
   '50,155',
-  '249<font>.05<div id="spacer">&nbsp;&nbsp;</div></font>',
+  '249<font>.05</font>',
   '27,935.25',
   0,
   'included',
