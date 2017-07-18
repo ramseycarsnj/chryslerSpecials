@@ -51,13 +51,13 @@ font {
   background-color: none;
   position: relative;
   top: 0px;
-  padding: 0 0px 0 0; }
+  padding: 0 10px 0 0; }
 
 .lease {
   background-color: #ffffff;
   flex: 1;
   font-size: 110px;
-  padding: 0 0px 0 0;
+  padding: 0 0 0 0;
   margin: 0;
   border: 0;
   text-align: right; }
@@ -72,8 +72,8 @@ font {
   background-color: #ffffff;
   flex: 1;
   font-size: 38px;
-  padding: 23px 20px 0 10px;
-  margin: 0px 20px 0 0px;
+  padding: 23px 0 0 10px;
+  margin: 0px 0 0 0px;
   border: 0;
   line-height: 1; }
 
@@ -114,9 +114,6 @@ font {
   background-color: #ffffff;
   font-size: 25px;
   font-weight: 700; }
-
-#SLTPRICE {
-  width: 100px; }
 
 #spacer {
   width: 15px !important;
