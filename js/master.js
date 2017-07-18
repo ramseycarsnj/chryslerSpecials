@@ -81,8 +81,8 @@ $(document).ready(function(){
   'power steering,',
   'power windows/locks/mirrors,',
   'Quick Order Package 23E, Bright Side Roof Rails, Power 8-Way Driver/Manual Passenger Seat',
-  'HC834519',
-  'CHH1711',
+  'HC192796',
+  'CHH2321',
   '14',
   '35,790',
   169,
@@ -97,7 +97,7 @@ $(document).ready(function(){
   '2,995',
   '$2,750 N.E. Lease Cash 32LH1, $500 2017 Military Consumer Cash 39CHB, $250 N.E. 2017 Bonus Cash NECHA, $1,000 2017 Conquest Lease to Retail/Lease 38CHA1',
   'vehicleImages/CHH1711.jpg',
-  'http://www.ramseychryslerjeepdodge.com/new/Jeep/2017-Jeep-Grand+Cherokee-c83957260a0e0ae70fea12d24635e146.htm',
+  'http://www.ramseychryslerjeepdodge.com/new/Jeep/2017-Jeep-Grand+Cherokee-78c6dfc90a0e0a6b3b5b9d254a3cd370.htm',
   '');
 
   vehicleArray[1] = new Vehicle(
