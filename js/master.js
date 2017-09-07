@@ -233,8 +233,8 @@ $(document).ready(function(){
 
   vehicleArray[5] = new Vehicle(
   2017,
-  'JEEP',
-  'COMPASS LATITUDE 4WD',
+  'DODGE',
+  'CHALLENGER GT COUPE',
   'REDLINE',
   '4DR',
   '2.4L I4',
