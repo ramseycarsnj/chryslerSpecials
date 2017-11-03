@@ -1,0 +1,173 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #E3E3E3; }
+
+.specialContainer {
+  width: 940px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  margin: 40px 0;
+  border: 1px solid #E3E3E3;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, sans-serif; }
+
+.specialContent {
+  position: relative;
+  width: 50%;
+  flex: 1 auto;
+  background-color: #ffffff; }
+
+.leftContent {
+  background-color: #ffffff; }
+
+.rightContent {
+  background-color: #ffffff; }
+
+.leaseQuoteSection {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row; }
+
+.leaseHead {
+  background-color: #ffffff;
+  padding: 35px 0 0 80px;
+  margin: 0 0 0px 0;
+  z-index: 8999; }
+
+font {
+  font-size: 8px;
+  background-color: none;
+  position: relative;
+  top: 0px;
+  padding: 0 10px 0 0; }
+
+.lease {
+  background-color: #ffffff;
+  flex: 1;
+  font-size: 110px;
+  padding: 0 0 0 0;
+  margin: 0;
+  border: 0;
+  text-align: right; }
+  .lease font {
+    font-size: 18px;
+    background-color: none;
+    position: absolute;
+    top: 80px;
+    padding: 0 10px 0 0; }
+
+.monthsSections {
+  background-color: #ffffff;
+  flex: 1;
+  font-size: 38px;
+  padding: 23px 0 0 10px;
+  margin: 0px 0 0 0px;
+  border: 0;
+  line-height: 1; }
+
+.moneyDue {
+  background-color: #ffffff;
+  padding: 0 0 20px 90px;
+  margin: 0px 0 0 0; }
+
+.linkButton {
+  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #1E4387;
+  text-decoration: none;
+  padding: 10px 140px;
+  display: inline-block;
+  font-size: 25px; }
+
+.linkButton:hover {
+  color: #ffffff;
+  background-color: #183770; }
+
+.disclaimer {
+  background-color: #ffffff;
+  font-size: 8px;
+  padding: 20px 0 0 0; }
+
+.vehicleImage {
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 30px 0 0 0; }
+
+.yearMake {
+  background-color: #ffffff; }
+
+.modelTrim {
+  background-color: #ffffff;
+  font-size: 25px;
+  font-weight: 700; }
+
+#spacer {
+  width: 15px !important;
+  height: 10px;
+  display: inline;
+  background-color: #ffffff; }
+
+@media (max-width: 600px) {
+  .specialContainer {
+    width: 240px;
+    flex-direction: column; }
+  .specialContent {
+    width: 100%; }
+  .modelTrim {
+    font-size: 20px; }
+  .leaseHead {
+    padding: 0 0 0 30px;
+    margin: 0 0 -5px 0; }
+  .lease {
+    flex: 1;
+    font-size: 60px;
+    padding: 0 0 0 10px;
+    margin: 0;
+    border: 0;
+    text-align: left;
+    letter-spacing: -1px; }
+    .lease font {
+      font-size: 14px;
+      background-color: none;
+      vertical-align: top;
+      height: 100px;
+      top: 0; }
+  .monthsSections {
+    flex: 1;
+    font-size: 20px;
+    padding: 12px 0 0 0;
+    margin: 0 0 0 7px;
+    border: 0; }
+  .moneyDue {
+    padding: 0 0 20px 15px;
+    margin: -5px 0 0 0; }
+  .linkButton {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 25px;
+    text-align: center; }
+  .linkButton:hover {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 25px;
+    text-align: center; }
+  #spacer {
+    display: none; } }
