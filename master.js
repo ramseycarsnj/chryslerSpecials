@@ -74,7 +74,7 @@ $(document).ready(function(){
   vehicleArray[0] = new Vehicle(
   2017,
   'CHRYSLER',
-  'Pacifica RUCH 4DR Touring-L',
+  'Pacifica 4DR Touring-L',
   'Velvet Red',
   '4DR',
   '3.6L V6 24V VVT',
