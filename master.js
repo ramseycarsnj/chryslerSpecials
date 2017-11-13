@@ -412,21 +412,28 @@ $(document).ready(function(){
   }
 
 
-  $(".opener").toggle(function () {
-      // $(this).html('CLOSE');
-      // $(this).parent().animate({
-      //     height: "452px"
-      // }, 200);
-      // $(this).parent().find('.offerDetails').css('display', 'inline');
+$('').click(function(event) {
+  $(this).html('CLOSE');
+  $(this).parent().animate({
+      height: "452px"
+  }, 200);
+  $(this).parent().find('.offerDetails').css('display', 'inline');
+});
+  // $(".opener").toggle(function () {
+       // $(this).html('CLOSE');
+       // $(this).parent().animate({
+       //     height: "452px"
+       // }, 200);
+       // $(this).parent().find('.offerDetails').css('display', 'inline');
 
-  }, function () {
-      // $(this).html('DO YOU QUALIFY?');
-      // $(this).parent().animate({
-      //     height: "10px"
-      // }, 200);
-      // $(this).parent().find('.offerDetails').css('display', 'none');
+  // }, function () {
+       // $(this).html('DO YOU QUALIFY?');
+       // $(this).parent().animate({
+       //     height: "10px"
+       // }, 200);
+       // $(this).parent().find('.offerDetails').css('display', 'none');
 
-  });
+  // });
 
 
 });
