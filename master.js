@@ -412,19 +412,19 @@ $(document).ready(function(){
   }
 
   $('.offerDetails').hide();
-  $(".opener").toggle(function () {
-      $(this).html('CLOSE');
-      $(this).parent().animate({
-          height: "452px"
-      }, 200);
-      
-  }, function () {
-      $(this).html('DO YOU QUALIFY?');
-      $('.infoPop').animate({
-          height: "10px"
-      }, 200);
-      
-  });
+  // $(".opener").toggle(function () {
+  //     $(this).html('CLOSE');
+  //     $(this).parent().animate({
+  //         height: "452px"
+  //     }, 200);
+  //
+  // }, function () {
+  //     $(this).html('DO YOU QUALIFY?');
+  //     $('.infoPop').animate({
+  //         height: "10px"
+  //     }, 200);
+  //
+  // });
 
 
 });
