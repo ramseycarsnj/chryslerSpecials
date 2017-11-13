@@ -417,14 +417,14 @@ $(document).ready(function(){
       // $(this).parent().animate({
       //     height: "452px"
       // }, 200);
-      $(this).parent().find('.offerDetails').css('display', 'inline');
+      // $(this).parent().find('.offerDetails').css('display', 'inline');
 
   }, function () {
       // $(this).html('DO YOU QUALIFY?');
       // $(this).parent().animate({
       //     height: "10px"
       // }, 200);
-      $(this).parent().find('.offerDetails').css('display', 'none');
+      // $(this).parent().find('.offerDetails').css('display', 'none');
 
   });
 
