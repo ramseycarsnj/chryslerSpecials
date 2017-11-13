@@ -22,12 +22,15 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   position: absolute;
   z-index: 90;
   margin: -20px 0 0 0;
-  padding: 0;
+  padding: 0 0 0 0;
   border: 0;
   left: 0;
   background-color: #fff;
   width: 981px;
   height: 10px;
+}
+.infoPop h1 {
+  padding: 60px 0 0 60px;
 }
 .opener {
   margin: 0;
@@ -71,6 +74,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   width: 820px;
   background-color: inherit;
   margin: 0 auto;
+
 }
 .offerDetails h1 {
   background-color: inherit;
@@ -443,6 +447,10 @@ font {
       background-color: #fff;
       width: 281px;
       height: 10px;
+      padding: 0px 0 0 0;
+    }
+    .first {
+      padding: 400px 0 0 0;
     }
     .opener {
       margin: 0;
