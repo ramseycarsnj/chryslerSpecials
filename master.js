@@ -417,13 +417,13 @@ $(document).ready(function(){
       $(this).parent().animate({
           height: "452px"
       }, 200);
-      $(this).parent().find('.offerDetails').show();
+      
   }, function () {
       $(this).html('DO YOU QUALIFY?');
       $('.infoPop').animate({
           height: "10px"
       }, 200);
-      $(this).parent().find('.offerDetails').hide();
+      
   });
 
 
