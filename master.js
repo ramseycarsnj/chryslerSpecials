@@ -411,7 +411,7 @@ $(document).ready(function(){
     listing(vehicleArray[i]);
   }
 
-  $('.offerDetails').hide();
+  // $('.offerDetails').hide();
   // $(".opener").toggle(function () {
   //     $(this).html('CLOSE');
   //     $(this).parent().animate({
