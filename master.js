@@ -412,28 +412,23 @@ $(document).ready(function(){
   }
 
 
-$('').click(function(event) {
-  $(this).html('CLOSE');
-  $(this).parent().animate({
-      height: "452px"
-  }, 200);
-  $(this).parent().find('.offerDetails').css('display', 'inline');
+$('.opener').click(function(event) {
+  console.log(this.innerHTML);
+  if (this.innerHTML == "DO YOU QUALIFY?") {
+    $(this).html('CLOSE');
+    $(this).parent().animate({
+        height: "452px"
+    }, 200);
+    $(this).parent().find('.offerDetails').css('display', 'inline');
+  }
+  else {
+    $(this).html('DO YOU QUALIFY?');
+    $(this).parent().animate({
+        height: "10px"
+    }, 200);
+    $(this).parent().find('.offerDetails').css('display', 'none');
+  }
 });
-  // $(".opener").toggle(function () {
-       // $(this).html('CLOSE');
-       // $(this).parent().animate({
-       //     height: "452px"
-       // }, 200);
-       // $(this).parent().find('.offerDetails').css('display', 'inline');
-
-  // }, function () {
-       // $(this).html('DO YOU QUALIFY?');
-       // $(this).parent().animate({
-       //     height: "10px"
-       // }, 200);
-       // $(this).parent().find('.offerDetails').css('display', 'none');
-
-  // });
-
+  
 
 });
