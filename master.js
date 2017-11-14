@@ -67,7 +67,7 @@ $(document).ready(function(){
   }
 
   function listing(thisCar){
-    document.body.innerHTML += '<div class="specialContainer"><div class="infoPop first"><button type="button" name="button" class="opener">DO YOU QUALIFY?</button><div class="offerDetails"><h1>YOU MAY SAVE EVEN MORE IF YOU QUALIFY FOR:</h1><ul><li>LEASE LOYALTY</li><li>LEASE CONQUEST</li><li>MILITARY BONUS</li><li>AFFILIATE/SUPPLIER BONUS</li><li>ON-THE-JOB BONUS</li><li>REALTOR BONUS</li></ul></div></div><div class="specialContent leftContent"><img src="' + thisCar.vehicleImage + '" alt="Chrysler vehicle image" class="vehicleImage"></div><div class="specialContent rightContent"><h3 class="yearMake">' + thisCar.year + ' ' + thisCar.make + '</h3><h2 class="modelTrim">' + thisCar.model + '</h2><h3 class="leaseHead">Lease this vehicle for:</h3><div class="leaseQuoteSection"><h1 class="lease">$' + thisCar.leasePrice + '</h1><h3 class="monthsSections">PER MO • ' + thisCar.months + ' MOS</h3></div><h4 class="moneyDue">' + thisCar.totalAtInception + '</h4><a href="' + thisCar.vehicleURL + '" class="linkButton" target="_blank">VIEW VEHICLE</a></div><div class="fineprint"><p class="disclaimer">'+ thisCar.doors + ', '+ thisCar.engine + ', '+ thisCar.transmission + ', a/c, p/s/ABS/winds/lks/htd mirrs, MP3, '+ thisCar.equipment + ', MSRP: $'+ thisCar.msrp + '. VIN '+ thisCar.vin + '. Stk '+ thisCar.stock + '. Lease: $'+ thisCar.moneyDown + ' down pymt. + $'+ thisCar.leasePrice + thisCar.fineprint + ' 1st mo. pymt. + $0 bank fee + $0 sec dep. + $299 doc fee = $'+ thisCar.totalAtInception + ' due at inception. Ttl. pymts: $'+ thisCar.totalPayment + '/$'+ thisCar.residual + ' purch opt. at lease end. Mi. allow: '+ thisCar.milesPerYear + 'K mi./yr. '+ thisCar.thereAfter + '¢ mi. thereafter. Lease price includes: '+ thisCar.additionalInfo + ', if qual.Prices incl. all costs to be paid by consumer except for licensing, registration and taxes. *Based on closed end lease w/primary lender approval. Lessee resp. for excess wear, tear &amp; mileage. Customers must meet all rebate qualifications. ^*†NON-Chrysler/Jeep/Dodge/Ram vehicles restrictions apply - see dealer for complete details, if qual. ^^(military) must be active or retired member of any US Military branch. Not resp. for typos.^*valid to customers leasing a Chrysler/Jeep/Dodge/Ram vehicle who lease a new eligible Chrysler/Jeep/Dodge/Ram model, see dealer for complete program eligibility, if qual. *^*must finance thru Chrysler Capital to qualified buyers. Photos may not accurately represent vehicles. Vehicle prices/leases &amp; incentives expire '+ expiration + ' and subj. to change by manufacturer. Chrysler, Jeep, Dodge, Ram are registered trademarks of Chrysler Group, LLC. Advertised vehicle offer available on similar vehicles if sold.</p></div></div>';
+    document.body.innerHTML += '<div class="specialContainer"><div class="specialContent leftContent"><img src="' + thisCar.vehicleImage + '" alt="Chrysler vehicle image" class="vehicleImage"></div><div class="specialContent rightContent"><h3 class="yearMake">' + thisCar.year + ' ' + thisCar.make + '</h3><h2 class="modelTrim">' + thisCar.model + '</h2><h3 class="leaseHead">Lease this vehicle for:</h3><div class="leaseQuoteSection"><h1 class="lease">$' + thisCar.leasePrice + '</h1><h3 class="monthsSections">PER MO • ' + thisCar.months + ' MOS</h3></div><h4 class="moneyDue">$' + thisCar.totalAtInception + ' down payment</h4><a href="' + thisCar.vehicleUrl + '" class="linkButton" target="_blank">VIEW VEHICLE</a></div><div class="fineprint"><p class="disclaimer">'+ thisCar.doors + ', '+ thisCar.engine + ', '+ thisCar.transmission + ', a/c, p/s/ABS/winds/lks/htd mirrs, MP3, '+ thisCar.equipment + ', MSRP: $'+ thisCar.msrp + '. VIN '+ thisCar.vin + '. Stk '+ thisCar.stock + '. Lease: $'+ thisCar.moneyDown + ' down pymt. + $'+ thisCar.leasePrice + thisCar.fineprint + ' 1st mo. pymt. + $0 bank fee + $0 sec dep.  = $'+ thisCar.totalAtInception + ' due at inception. Ttl. pymts: $'+ thisCar.totalPayment + '/$'+ thisCar.residual + ' purch opt. at lease end. Mi. allow: '+ thisCar.milesPerYear + 'K mi./yr. '+ thisCar.thereAfter + '¢ mi. thereafter. Lease price includes: '+ thisCar.additionalInfo + ', if qual.Prices incl. all costs to be paid by consumer except for licensing, registration and taxes. *Based on closed end lease w/primary lender approval. Lessee resp. for excess wear, tear &amp; mileage. Customers must meet all rebate qualifications. ^*†NON-Chrysler/Jeep/Dodge/Ram vehicles restrictions apply - see dealer for complete details, if qual. ^^(military) must be active or retired member of any US Military branch. Not resp. for typos.^*valid to customers leasing a Chrysler/Jeep/Dodge/Ram vehicle who lease a new eligible Chrysler/Jeep/Dodge/Ram model, see dealer for complete program eligibility, if qual. *^*must finance thru Chrysler Capital to qualified buyers. Photos may not accurately represent vehicles. Vehicle prices/leases &amp; incentives expire '+ expiration + ' and subj. to change by manufacturer. Chrysler, Jeep, Dodge, Ram are registered trademarks of Chrysler Group, LLC. Advertised vehicle offer available on similar vehicles if sold.</p></div></div>';
   }
 
 
@@ -130,7 +130,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BC 2018 IDL Bonus Cash $2,250, NECJA N.E. 2018 Bonus Cash $500',
-  ' CHJ0501.jpg',
+  'CHJ0501.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Jeep/2018-Jeep-Compass-9fb888e00a0e0ae70e749f9f65e7bf7e.htm',
   '',
   '');
@@ -162,7 +162,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   '32LJ1 N.E. BC Lease Cash $2,500, 38LJB Cherokee Lease Bonus Cash $1,000',
-  ' CHJ0342.jpg',
+  'CHJ0342.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Jeep/2018-Jeep-Cherokee-33b1eafb0a0e0ae77246c09a5eed6def.htm',
   '',
   '.99');
@@ -194,7 +194,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $3,000, 32LJ1 N.E. BC Lease Cash $1,250',
-  ' CHJ0060.jpg',
+  'CHJ0060.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Jeep/2018-Jeep-Grand+Cherokee-a8a1912f0a0e0ae965f9dd84144ce5fd.htm',
   '',
   '.07');
@@ -226,7 +226,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELHA N.E. BS 2017 IDL Bonus Cash $2,500, 32LH1 N.E. BC LEASH CASH $5,750, NECHA N.E. 2017 BONUS CASH $1,500',
-  ' CHH2338.jpg',
+  'CHH2338.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Ram/2017-Ram-1500-78c6dc2d0a0e0a6b3b5b9d25b7b99ecb.htm',
   '',
   '');
@@ -258,7 +258,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $4,500, 32LJ1 N.E. BC Lease Cash $1,000, NECJA N.E. 2018 BONUS CASH $500',
-  ' CHJ0369.jpg',
+  'CHJ0369.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Dodge/2018-Dodge-Durango-57b51f840a0e0adf589d058cca2f7c32.htm',
   '',
   '');
@@ -290,7 +290,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $3,000, 32LJ1 N.E. BC Lease Cash $1,500',
-  ' CHJ0304.jpg',
+  'CHJ0304.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Dodge/2018-Dodge-Challenger-33b1d3c30a0e0ae77246c09a05986e06.htm',
   '',
   '');
@@ -322,7 +322,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $2,750, 32LJ1 N.E. BC Lease Cash $2,250',
-  ' CHJ0451.jpg',
+  'CHJ0451.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Dodge/2018-Dodge-Charger-7bb25d000a0e0adf589d058c54bb3c6a.htm',
   '',
   '');
@@ -411,24 +411,5 @@ $(document).ready(function(){
     listing(vehicleArray[i]);
   }
 
-
-$('.opener').click(function(event) {
-  console.log(this.innerHTML);
-  if (this.innerHTML == "DO YOU QUALIFY?") {
-    $(this).html('CLOSE');
-    $(this).parent().animate({
-        height: "452px"
-    }, 200);
-    $(this).parent().find('.offerDetails').css('display', 'inline');
-  }
-  else {
-    $(this).html('DO YOU QUALIFY?');
-    $(this).parent().animate({
-        height: "10px"
-    }, 200);
-    $(this).parent().find('.offerDetails').css('display', 'none');
-  }
-});
-  
 
 });
