@@ -360,53 +360,6 @@ $(document).ready(function(){
   '',
   '');
 
-  // vehicleArray[8] = new Vehicle(
-  // 2018,
-  // 'CHRYSLER',
-  // '300 Limited AWD',
-  // 'Ceramic Grey',
-  // '4DR',
-  // '3.6L V6 VVT',
-  // '8-speed Automatic',
-  // 'abs breaks,',
-  // 'power steering,',
-  // 'power windows/locks/mirrors,',
-  // 'all season tires, customer preferred package 2DF, express package 22F, leather trimmed bucket seats',
-  // 'HH648007',
-  // 'CHH2893',
-  // '17',
-  // '38,930',
-  // '259',
-  // '17,129.20',
-  // 0,
-  // 'included',
-  // '2,735.31',
-  // '10,127.91',
-  // 39,
-  // 10,
-  // '.25',
-  // '2,995',
-  // 'NELHA N.E. BS 2017 IDL Bonus Cash $1,250, 32LH1 N.E. BC Lease Cash $8,500, NECHA N.E. 2017 Bonus Cash $1,000',
-  // ' CHH2893.jpg',
-  // 'https://www.ramseychryslerjeepdodge.com/new/Dodge/2018-Dodge-Charger-7bb25d000a0e0adf589d058c54bb3c6a.htm',
-  // '',
-  // '.69');
-
-
-
-// NELHA Northeast BC 2017 IDL Bonus Cash $2500
-// 32LH1 Northeast BC Lease Cash $3250
-// 39CHB 2017 Military Consumer Cash $500
-// NECHA Northeast 2017 Bonus Cash $250
-// 38CHA 2017 Conquest Lease to Retail/Lease $1000
-// 41CHZ Jeep Celebration Bonus Cash $500
-
-
-// <div style="margin-bottom: 20px;background-color:#fff;">Buy Now Price: <span style="font-weight: 900; font-size: 35px;background-color: #fff;">$25,995<sup>*</sup></span></div>
-
-  for (var i = 0; i < vehicleArray.length; i++) {
-    listing(vehicleArray[i]);
-  }
   for (var i = 0; i < vehicleArray.length; i++) {
     listing(vehicleArray[i]);
   }
