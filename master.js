@@ -98,7 +98,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELHA N.E. BC 2017 IDL Bonus Cash $3,500, 32LH1 N.E. BC Lease Cash $2,500, NECHA N.E. 2017 Bonus Cash, 44CJ3C Pacifica Lease Cash Coupon $500',
-  ' CHH2518.png',
+  'http://pictures.dealer.com/r/ramseycdjcllc/0362/20bad13e7fc5c5eb5855e9a54b5402f3x.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Chrysler/2017-Chrysler-Pacifica-ef3caab60a0e0a6b40690100d7f12418.htm',
   '',
   '');
@@ -130,7 +130,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BC 2018 IDL Bonus Cash $2,250, NECJA N.E. 2018 Bonus Cash $500',
-  'CHJ0501.jpg',
+  'http://pictures.dealer.com/r/ramseycdjcllc/0205/43cbdadf227d7e409d063b5ab91e7e98x.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Jeep/2018-Jeep-Compass-9fb888e00a0e0ae70e749f9f65e7bf7e.htm',
   '',
   '');
@@ -162,7 +162,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   '32LJ1 N.E. BC Lease Cash $2,500, 38LJB Cherokee Lease Bonus Cash $1,000',
-  'CHJ0342.jpg',
+  'http://pictures.dealer.com/r/ramseycdjcllc/1259/ae3f88f22903414c1fac508b7be8e09ex.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Jeep/2018-Jeep-Cherokee-33b1eafb0a0e0ae77246c09a5eed6def.htm',
   '',
   '.99');
@@ -194,7 +194,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $3,000, 32LJ1 N.E. BC Lease Cash $1,250',
-  'CHJ0060.jpg',
+  'http://pictures.dealer.com/r/ramseycdjcllc/0698/22a0f1af3d7b7d1e8ac16cb5ab00fc8dx.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Jeep/2018-Jeep-Grand+Cherokee-a8a1912f0a0e0ae965f9dd84144ce5fd.htm',
   '',
   '.07');
@@ -226,7 +226,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELHA N.E. BS 2017 IDL Bonus Cash $2,500, 32LH1 N.E. BC LEASH CASH $5,750, NECHA N.E. 2017 BONUS CASH $1,500',
-  'CHH2338.jpg',
+  'http://pictures.dealer.com/r/ramseycdjcllc/1987/e9051c052078bc7771c61221b86ca18ex.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Ram/2017-Ram-1500-78c6dc2d0a0e0a6b3b5b9d25b7b99ecb.htm',
   '',
   '');
@@ -258,7 +258,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $4,500, 32LJ1 N.E. BC Lease Cash $1,000, NECJA N.E. 2018 BONUS CASH $500',
-  'CHJ0369.jpg',
+  'http://pictures.dealer.com/r/ramseycdjcllc/1523/7ef8881ae067ba7c4284e2ae74614181x.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Dodge/2018-Dodge-Durango-57b51f840a0e0adf589d058cca2f7c32.htm',
   '',
   '');
@@ -290,7 +290,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $3,000, 32LJ1 N.E. BC Lease Cash $1,500',
-  'CHJ0304.jpg',
+  'http://pictures.dealer.com/r/ramseycdjcllc/0243/7ef8881ae067ba7c4284e2ae74614181x.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Dodge/2018-Dodge-Challenger-33b1d3c30a0e0ae77246c09a05986e06.htm',
   '',
   '');
@@ -322,7 +322,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $2,750, 32LJ1 N.E. BC Lease Cash $2,250',
-  'CHJ0451.jpg',
+  'http://pictures.dealer.com/r/ramseycdjcllc/0241/4351aaccd876432dcf2e71caaf1447d6x.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Dodge/2018-Dodge-Charger-7bb25d000a0e0adf589d058c54bb3c6a.htm',
   '',
   '');
@@ -355,7 +355,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELHA N.E. BS 2017 IDL Bonus Cash $4,000, 32LH1 N.E. BC Lease Cash $6,000, NECHA N.E. 2017 Bonus Cash $1,000',
-  'CHH2756.png',
+  'http://pictures.dealer.com/r/ramseycdjcllc/1909/2e8fc93cc73a520b460e6b63757bf5a4x.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Ram/2017-Ram-1500-c26108ae0a0e0ae7682674b88b459cd5.htm',
   '',
   '');
