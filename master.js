@@ -290,7 +290,7 @@ $(document).ready(function(){
   '.25',
   '2,995',
   'NELJA N.E. BS 2018 IDL Bonus Cash $3,000, 32LJ1 N.E. BC Lease Cash $1,500',
-  'http://pictures.dealer.com/r/ramseycdjcllc/0243/7ef8881ae067ba7c4284e2ae74614181x.jpg',
+  'http://pictures.dealer.com/r/ramseycdjcllc/1624/956c2d0ec6bebed7d7948b4e728700dax.jpg',
   'https://www.ramseychryslerjeepdodge.com/new/Dodge/2018-Dodge-Challenger-33b1d3c30a0e0ae77246c09a05986e06.htm',
   '',
   '');
