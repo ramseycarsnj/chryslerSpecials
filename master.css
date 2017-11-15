@@ -87,6 +87,15 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
 .offerDetails li {
   margin: 5px 0;
 }
+.topText {
+  background-image: url(http://pictures.dealer.com/r/ramseycdjcllc/0761/d33c0ce8d221b615497c7fa8a5481708x.jpg);
+  width: 981px;
+  height: 96px;
+  color: #fff;
+  padding: 0 0 0 0px;;
+  margin: 0 0 -40px 0;
+  border: 0;
+}
 .specialContent {
   position: relative;
   width: 50%;
@@ -507,5 +516,15 @@ font {
     }
     .offerDetails li {
       margin: 5px 0;
+    }
+    .topText {
+      background-image: url(http://pictures.dealer.com/r/ramseycdjcllc/1314/fc3996c10806e4392084d375ea415b8dx.jpg);
+      width: 281px;
+      height: 85px;
+      background-size: 280px 85px;
+      color: #fff;
+      padding: 0 0 0 0px;;
+      margin: 0 0 -40px 0;
+      border: 0;
     }
    }
